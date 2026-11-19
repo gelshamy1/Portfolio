@@ -40,3 +40,10 @@ a:hover, a:focus-visible {
   background: #ffffff;
   color: #11233c;
 }
+body {
+  min-height: 100vh;
+  background-color: #101931;
+  background-image:
+    radial-gradient(circle at 95% 8%, transparent 80px, #50dbc8 81px, #50dbc8 86px, transparent 87px),
+    radial-gradient(circle at 8% 100%, #795de0 100px, transparent 101px);
+}
