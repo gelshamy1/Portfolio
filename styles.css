@@ -1,1 +1,42 @@
 <link rel="stylesheet" href="style.css">
+body {
+  box-sizing: border-box;
+  min-height: 100vh;
+  max-width: none;
+  margin: 0;
+  padding: 18vh 8vw;
+  font-family: "Inter", Arial, sans-serif;
+  color: #f4f7ff;
+  background:
+    radial-gradient(circle at 95% 8%,
+      transparent 0 85px, #50dbc8 86px 91px,
+      transparent 92px 114px, #50dbc8 115px 117px,
+      transparent 118px),
+    radial-gradient(circle at 8% 103%,
+      #795de0 0 115px, transparent 116px),
+    linear-gradient(135deg, #101931, #23365c);
+}
+
+h1 {
+  color: #ffffff;
+  font-size: clamp(2.8rem, 7vw, 6rem);
+  line-height: 1.05;
+  letter-spacing: -0.045em;
+  margin: 0 0 32px;
+}
+
+a {
+  display: inline-block;
+  margin: 0 10px 12px 0;
+  padding: 10px 22px;
+  border-radius: 24px;
+  background: #a9f4e7;
+  color: #11233c;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover, a:focus-visible {
+  background: #ffffff;
+  color: #11233c;
+}
